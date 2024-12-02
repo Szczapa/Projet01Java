@@ -4,7 +4,7 @@
 
 Avant d'utiliser ce projet, assurez-vous que :
 - Le **JDK 21 ou supérieur**
-- Les commandes `javac` et `java` fonctionnent depuis votre terminal.
+- Les commandes `javac` et `java` et `jar`fonctionnent depuis votre terminal.
 
 ### Vérification du JDK
 Pour vérifier que le JDK est correctement installé, exécutez :
@@ -38,7 +38,7 @@ Projetnnuaire/
 ```bash
 javac -d out src/contacts/*.java src/app/App.java
 ```
-- ``-d out``: indique que les fichiers compilés seront placés dans le dossier ``out`` lors de la compilation.
+- `-d out`: indique que les fichiers compilés seront placés dans le dossier `out` lors de la compilation.
 
 #### Exécution 
 1. Lancez l'application avec:
@@ -88,5 +88,5 @@ Liste des contacts :
 ``` bash 
 jar cf contacts.jar -C out contacts
 ```
-- En cas d'erreur : Checkez dans vos ``Variable d'environnement`` que le path vers le bin de votre version Java est bien installé.
-Par exemple : ``C:\Program Files\Java\jdk-21\bin`` dans le cas de la 21
+- En cas d'erreur : Checkez dans vos `Variable d'environnement` que le path vers le bin de votre version Java est bien installé.
+Par exemple : `C:\Program Files\Java\jdk-21\bin` dans le cas de la 21
