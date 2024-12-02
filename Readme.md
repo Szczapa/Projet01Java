@@ -12,6 +12,12 @@ Pour vérifier que le JDK est correctement installé, exécutez :
 javac -version
 ```
 
+### Vérification du Jar
+Pour vérifier que le Jar est correctement installé, exécutez :
+```bash
+jar --version
+```
+
 ### Structure du projet 
 
 ```bash
@@ -77,3 +83,10 @@ Votre choix : 2
 Liste des contacts :
 1. Nom: Alice, Téléphone: 1234567890
 ```
+
+### Créer le jar pour les class contacts 
+``` bash 
+jar cf contacts.jar -C out contacts
+```
+- En cas d'erreur : Checkez dans vos ``Variable d'environnement`` que le path vers le bin de votre version Java est bien installé.
+Par exemple : ``C:\Program Files\Java\jdk-21\bin`` dans le cas de la 21
