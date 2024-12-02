@@ -3,7 +3,7 @@
 ## Prérequis
 
 Avant d'utiliser ce projet, assurez-vous que :
-- Le **JDK 8 ou supérieur** est installé (recommandé : JDK 21).
+- Le **JDK 21 ou supérieur**
 - Les commandes `javac` et `java` fonctionnent depuis votre terminal.
 
 ### Vérification du JDK
