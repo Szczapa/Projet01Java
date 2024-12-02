@@ -20,7 +20,7 @@ Projetnnuaire/
 │   ├── contacts/
 │   │   ├── Person.java
 │   │   └── Directory.java
-│   └── app/
+│   └── exercice01/
 │       └── App.java
 ├── README.md
 ```
