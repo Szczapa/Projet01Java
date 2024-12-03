@@ -1,8 +1,8 @@
 package contacts;
 
 public class Person{
-    String name;
-    String phone;
+    private String name;
+    private String phone;
 
     public Person(String name, String phone){
         this.name = name;
@@ -19,7 +19,7 @@ public class Person{
 
     public String getPhone(){
         return this.phone;
-    }%
+    }
 
     public void setPhone(String newPhone){
         this.phone = newPhone;
