@@ -34,7 +34,7 @@ Projetnnuaire/
 ### Instruction à la compilation et exécution 
 #### Compilation 
 1. Vérifier que vos fichier suivent bien la structure ci dessus.
-2. écutez la commande suivante pour compiler le projet:
+2. exécutez la commande suivante pour compiler le projet:
 ```bash
 javac -d out src/contacts/*.java src/app/App.java
 ```
